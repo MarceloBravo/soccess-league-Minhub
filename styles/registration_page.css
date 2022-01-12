@@ -1,0 +1,222 @@
+html{
+    font-family: serif;
+}
+
+h1{
+    font-style: oblique;
+    font-size: xxx-large;
+    margin-bottom: 0px;
+}
+
+.menu{
+    display: flex;
+    z-index: 1000;
+    margin: 0px;
+    position: relative;
+    width: auto;
+    padding: 0px;
+    background: #0a87b9;
+    border: solid #0a87b9 4px;
+}
+
+.menu li{
+    list-style: none;
+    margin: 0px 1px;
+    padding: 2px 0px;
+    z-index: 100;
+}
+
+ul a{
+    padding: 0px 20px;
+    color: white;
+    border: solid rgb(10, 135, 185);
+    cursor: pointer;
+    box-shadow: 3px 3px 2px #bdc7cb;
+    text-decoration: none;
+    background-color: rgb(10, 135, 185);
+}
+
+a.active{
+    background-color: #3dcd0e;
+    border: solid #95e987;
+}
+
+.content-image{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-image > img{
+    width: 100%;
+    top: -70px;
+    position: relative;
+}
+
+h2{
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    background: #0a87b9;
+    color: white;
+}
+
+.img-logo{
+    height: 120px;
+}
+
+.div-content{
+    display: flex !important;
+}
+
+.div-formulario{
+    padding: 0 10%;
+}
+
+.col-left{
+    padding: 0 3%;
+}
+
+.registration-form{
+    padding: 0 17%;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.registration-form div{
+    margin-bottom: 30px;
+}
+
+.registration-form > div > h3{
+    font-size: 30px;
+    margin: 0;
+}
+
+.registration-form p{
+    text-align: justify;
+}
+
+.form-group > div {
+    margin-bottom: 0px;
+}
+
+#txt-direccion{
+    width: 100%;
+}
+
+.form-group{
+    display: flex;
+}
+
+.form-group input{
+    width: inherit;
+    border: none;
+    border-bottom: solid thin;
+    margin: 0 10px;
+}
+
+.lbl-grado{
+    font-size: 12px;
+    position: relative;
+    top: -7px;
+    font-weight: bold;
+}
+
+.chk-group{
+    display: flex
+}
+
+.content-button{
+    text-align: center;
+}
+
+.chk-item-group{
+    width: 50%;
+    margin: 0px !important;
+}
+
+input[type="checkbox"]{
+    margin: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+select{
+    padding: 3px;
+    top: -6px;
+    position: relative;
+}
+
+/* 
+Cambia el color a los cuadros de texto y a los cuadros 
+de fecha cuando éstos se encuentran con el foco 
+*/
+input[type="text"]:focus,
+input[type="date"]:focus {
+    outline: none !important;
+    border:1px solid rgb(34, 37, 233) !important;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+/* Cambia el estilo redondeado que trae por defecto el radio button 
+por un estilo más parecido al cuadrado del checkbox */
+input[type="radio"]{
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    appearance: none;
+    border: 1px solid #d3d3d3;
+    width: 15px;
+    height: 15px;
+    content: none;
+    outline: none;
+    /*margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
+ }
+ 
+ input[type="radio"]:checked {
+   appearance: none;
+   outline: none;
+   padding: 0;
+   content: none;
+   border: none;
+ }
+ 
+ input[type="radio"]:checked::before{
+   position: absolute;
+   color: rgb(253, 253, 253) !important;
+   content: "\00A0\2713\00A0" !important;
+   border: 1px solid #3096da;
+   background: #3096da;
+   font-weight: bolder;
+   font-size: 10px;
+ }
+ /* Fin cambio de estilo al radiobutton */
+
+
+
+ .chk-group input[type="radio"]{
+    margin: 15px 15px 0 0;
+ }
+
+button{
+    background: #1616cd;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #3535db;
+}
+
+.lbl-escuela{
+    font-weight: bold;
+    margin-right: 10px;
+}

@@ -1,0 +1,152 @@
+html{
+    font-family: serif;
+}
+
+h1{
+    font-style: oblique;
+    font-size: xxx-large;
+    margin-bottom: 0px;
+}
+
+.menu{
+    display: flex;
+    z-index: 1000;
+    margin: 0px;
+    position: relative;
+    width: auto;
+    padding: 0px;
+    background: #0a87b9;
+    border: solid #0a87b9 4px;
+}
+
+
+.menu li{
+    list-style: none;
+    margin: 0px 1px;
+    padding: 2px 0px;
+    z-index: 100;
+}
+
+ul a{
+    padding: 0px 20px;
+    color: white;
+    border: solid rgb(10, 135, 185);
+    cursor: pointer;
+    box-shadow: 3px 3px 2px #bdc7cb;
+    text-decoration: none;
+    background-color: rgb(10, 135, 185);
+}
+
+a.active{
+    background-color: #3dcd0e;
+    border: solid #95e987;
+}
+
+.content-image{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-image > img{
+    width: 100%;
+    top: -70px;
+    position: relative;
+}
+
+.titulo-principal{
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    background: #0a87b9;
+    color: white;
+}
+
+.img-logo{
+    height: 120px;
+}
+
+.div-cabecera{
+    display: flex !important;
+}
+
+.div-about{
+    padding: 0 10%;
+}
+.col-left{
+    width: 5%;
+    padding: 0 3%;
+}
+ 
+.div-cabecera .col-right{
+    padding: 0 3%;
+}
+
+.titulos{
+    width: 100%;
+    text-align: center;
+}
+
+
+.titulos:first{
+    font-size: xx-large;
+}
+
+.div-content-main{
+    font-family: sans-serif;
+    padding: 0 15%;
+}
+
+.sub-titulo{
+    font-style: italic;
+}
+
+.lbl-sub-titulo{
+    font-weight: bold;
+}
+
+
+.div-content-table table{
+    position: relative;
+    left: 30%;
+    margin: 7% 0px;
+}
+
+.div-content-main > ul > label,
+.div-content-main > ol > label{
+    font-weight: bold;
+}
+
+.div-content-main li{
+    margin: 0px 25px;
+    padding: 10px 20px;
+}
+
+.first-list > li{
+    list-style: square;
+}
+
+.second-list > li > ol{
+    padding: 0px;
+}
+
+.second-list > li > ol > li{
+    list-style: lower-alpha;
+    padding: 0px;
+}
+
+.third-list{
+    margin: 0px;
+}
+
+.third-list > li > ul > li{
+    padding: 0 10px 0px 0px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
